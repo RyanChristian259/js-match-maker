@@ -1,12 +1,17 @@
-// // add scripts
-
 $(document).on('ready', function() {
   // console.log('sanity check!');
-     // $(".hideMeMentor").hide();
+     $(".hideMeMentor").hide();
 });//document ready
 
-     // var studentArray = [];
-     // var mentorArray = [];
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+//////////Refactored  Exercise////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+//////////See below for original exercise///////
+
+//      var studentArray = [];
+//      var mentorArray = [];
 
 
 
@@ -39,7 +44,7 @@ $(document).on('ready', function() {
 //      $(".addStudentNo").hide();
 //   });
 
-//   //no add student functionalilty
+//   //'no' add student functionalilty
 //   $(".addStudentNo").click(function(e){
 //      e.preventDefault();
 //        //show submit button when clicked
@@ -55,7 +60,7 @@ $(document).on('ready', function() {
 // $('form[name="mentorForm"]').on('submit',function(e){
 //   e.preventDefault();
 //     //hide submit button when clicked
-//     // $(".hideMe").hide();
+//     $(".hideMe").hide();
 //     // alert("Submitted");
 //     var mentorName = $('#mentorName').val();
 //     var mentorPhone = $('#mentorPhone').val();
@@ -71,6 +76,7 @@ $(document).on('ready', function() {
 //     $(".addAnotherMentor").append(" <h4 class=\'hideMeText\'>Add Another Mentor?</h4> <button class=\"btn btn-default addMentorYes\">Yes</button> <button type=\"submit\" class=\"btn btn-default addMentorNo\">No</button>");
 //     $("form")[0].reset();
 
+
 //     //add mentor functionality
 //   $(".addMentorYes").click(function(e){
 //      e.preventDefault();
@@ -81,7 +87,7 @@ $(document).on('ready', function() {
 //      $(".addMentorNo").hide();
 //   });
 
-//   //no add student functionalilty
+//   //'no' add mentor functionalilty
 //   $(".addMentorNo").click(function(e){
 //      e.preventDefault();
 //        //show submit button when clicked
@@ -94,9 +100,11 @@ $(document).on('ready', function() {
 // });
 
 
-
-////////////////////Exercise////////////////////
-//////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+//////////Original  Exercise////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
 
     //get number of requested students and mentors from user
     totalStudents = parseInt(prompt('Please enter the total number of students learning JavaScript'));
