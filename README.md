@@ -1,19 +1,25 @@
+#Rewrite HTML
+Duplicate form code for Mentors and Students
+Show/hide buttons
+Output to DOM
+
+
 # js-match-makerJavaScript Match Maker!
 GOAL: Solidify understanding of JavaScript functions, conditionals, booleans, and data structures and practice your problem solving skills by creating a fun program to match students with mentors.
 
 Setup
 
-<!-- Create a new local project directory called "js-match-maker".
+ Create a new local project directory called "js-match-maker".
 Add a local git repository.
 Create a remote repository on Github.
 Add a main.js file.
 Add a simple console.log("sanity check!") in main.js to verify that it's included correctly. -->
-<!-- Finally, add/commit to your local git repo, and then push your changes to Github. -->
+ Finally, add/commit to your local git repo, and then push your changes to Github.
 Requirements
 
-<!-- Ask (prompt) the user for the total number of students learning JavaScript -->
-<!-- For each student, ask the user for their name, phone number, and city. Create an object for each person. Add each object to an array. BONUS: add validation. -->
-<!-- Repeat steps 1 and 2 for mentors. Create a new array of objects. You should now have two arrays - one for students, the other for mentors. -->
+ Ask (prompt) the user for the total number of students learning JavaScript
+For each student, ask the user for their name, phone number, and city. Create an object for each person. Add each object to an array. BONUS: add validation.
+Repeat steps 1 and 2 for mentors. Create a new array of objects. You should now have two arrays - one for students, the other for mentors.
 Print (alert) the total number of students, the number of mentors, and each person nicely formatted like so:
 
 Name: Michael Herman
